@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GAMF.props" />
+</Project>

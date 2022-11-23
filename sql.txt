@@ -1,0 +1,5 @@
+SELECT  "Students"."LastName", "Students"."FirstMidName", "Enrollments"."Grade"
+FROM "Enrollments"
+inner join "Students" on "Enrollments"."StudentId"="Students"."Id"
+Group by "Students"."LastName"
+ORDER BY "Students"."LastName" ASC 
